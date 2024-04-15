@@ -2,11 +2,8 @@ import numpy as np
 import pickle
 import streamlit as st
 
-
-
-
 #loading model
-loaded_model=pickle.load(open("D:/devlop/Crop-Prediction/trained_model.sav",'rb'))
+loaded_model=pickle.load(open("D:/project/Crop-Prediction/trained_model.sav",'rb'))
 
 def crop_prediction(input_data):
 
